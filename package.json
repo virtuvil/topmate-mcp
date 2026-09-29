@@ -1,0 +1,27 @@
+{
+  "name": "topmate-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for Topmate creator management, bookings, Priority DMs, and profile configuration.",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "topmate-mcp": "./index.mjs"
+  },
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [
+    "topmate",
+    "mcp",
+    "model-context-protocol",
+    "creator",
+    "mentorship",
+    "automation"
+  ],
+  "author": "Prasanth Elangovan",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "zod": "^3.24.2"
+  }
+}
